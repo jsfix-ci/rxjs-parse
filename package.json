@@ -1,7 +1,7 @@
 {
   "name": "@ckapp/rxjs-parser",
   "description": "Parsing for RxJS",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "Apache-2.0",
   "author": "Chris",
   "bugs": {
