@@ -11,8 +11,7 @@ describe('common/rxjs', () => {
   let testScheduler: TestScheduler;
 
   beforeEach(() => {
-    provider = create();
-    provider.chain(rxjsParsers());
+    provider = create().chain(rxjsParsers());
   });
   beforeEach(() => {
     testScheduler = new TestScheduler((actual, expected) => {
