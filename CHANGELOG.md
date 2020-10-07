@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/ckapps/rxjs-parse/compare/v0.0.2...v0.0.3) (2020-10-07)
+
+
+### Features
+
+* make parsers chainable ([938ee2d](https://github.com/ckapps/rxjs-parse/commit/938ee2dd0f0b41805f630f16c8f54879cf4910bf))
+
 ### [0.0.2](https://github.com/ckapps/rxjs-parse/compare/v0.0.1...v0.0.2) (2020-10-07)
 
 ### 0.0.1 (2020-10-07)
