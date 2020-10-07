@@ -2,9 +2,9 @@
 [![npm version](https://badge.fury.io/js/%40ckapp%2Frxjs-parse.svg)](https://www.npmjs.com/@ckapp/rxjs-parse)
 [![Coverage Status](https://coveralls.io/repos/github/ckapps/rxjs-parse/badge.svg?branch=master)](https://coveralls.io/github/ckapps/rxjs-parse?branch=master)
 
-# @ckapp/rxjs
+# @ckapp/rxjs-parse
 
-A collection of RxJS extensions.
+Dynamic creation of `rxjs` observables and operators from data.
 
 ## Branches / Versions
 
@@ -20,7 +20,7 @@ Check our [branching and release strategy](https://github.com/ckapps/.github/blo
 ### ES6 via npm
 
 ```sh
-npm i @ckapp/rxjs
+npm i @ckapp/rxjs-parse
 ```
 
 ## Building/Testing
