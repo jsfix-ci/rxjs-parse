@@ -74,6 +74,7 @@ export function create(): Parser {
     parse: () => undefined,
     chain: (...args) => {
       parserChain.push(...args.map(p => p()));
+      return x;
     },
   };
 

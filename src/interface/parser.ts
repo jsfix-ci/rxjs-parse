@@ -77,5 +77,5 @@ export interface Parser extends CustomParser {
    * is returned.
    */
   parse(def: ObservableDefinition<unknown>): Observable<unknown> | undefined;
-  chain(...customParsers: PipeableParser[]): void;
+  chain(...customParsers: PipeableParser[]): Parser;
 }
