@@ -1,5 +1,9 @@
 import { ThrottleConfig } from 'rxjs/internal/operators/throttle';
-import { SourceDefinition } from '../core/types';
+
+import {
+  ObservableDefinition,
+  OperatorDefinition,
+} from '../interface/definitions';
 
 export interface FromEventOptions {
   events: string[];
@@ -34,6 +38,6 @@ export interface ThrottleTimeOptions extends ThrottleConfig {
   duration: number;
 }
 
-export type SkipUntilOptions = SourceDefinition<unknown>;
+export type SkipUntilOptions = ObservableDefinition<unknown>;
 
-export type TakeUntilOptions = SourceDefinition<unknown>;
+export type TakeUntilOptions = ObservableDefinition<unknown>;
