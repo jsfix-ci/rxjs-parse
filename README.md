@@ -23,6 +23,26 @@ Check our [branching and release strategy](https://github.com/ckapps/.github/blo
 npm i @ckapp/rxjs-parse
 ```
 
+### Usage
+
+1. Create a parser
+2. Chain other parsers
+3. Use parser
+
+```ts
+import { create } from '@ckapp/rxjs-parse/core';
+import { rxjsParsers } from '@ckapp/rxjs-parse/common';
+
+// Create a parser
+const parser = create().chain(
+  // Chain specific parsers
+  rxjsParsers()
+);
+
+// Create observables
+const observable = parser.parse(...);
+```
+
 ## Building/Testing
 
 - `npm test` run tests
