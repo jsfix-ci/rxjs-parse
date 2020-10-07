@@ -31,5 +31,3 @@ export function rxjsParsers() {
     namedOperator('pluck', _pluck),
   ]);
 }
-
-// const x = create().chain(rxjsParsers());
