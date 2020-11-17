@@ -16,9 +16,6 @@ export interface IntervalOptions {
   period: number;
 }
 
-export interface SkipOptions {
-  count: number;
-}
 export interface TakeOptions {
   count: number;
 }
