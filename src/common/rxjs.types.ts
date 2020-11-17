@@ -16,9 +16,6 @@ export interface IntervalOptions {
   period: number;
 }
 
-export interface TakeOptions {
-  count: number;
-}
 export interface TakeLastOptions {
   count: number;
 }
