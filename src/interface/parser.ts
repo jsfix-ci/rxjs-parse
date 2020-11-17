@@ -16,7 +16,7 @@ export type PipeableParser = () => CustomParser;
 type ParseOperatorResult = OperatorFunction<any, unknown> | undefined;
 
 /**
- * An interface for a provider for the `FormFieldService`.
+ * An interface for a parser.
  *
  * A provider can provide factories to create
  * - source observables
@@ -28,8 +28,7 @@ export interface CustomParser {
    * Parses a definition `def` to an `Observable`.
    *
    * @param def Definition for the source
-   * @param fieldComponent Component for which the source is created
-   * @param rootFactory The factory to use to create sources or operators
+   * @param parser Root parser
    *
    * @returns
    * An observable.
@@ -45,8 +44,7 @@ export interface CustomParser {
    * Parses a definition `def` to an `OperatorFunction`.
    *
    * @param def Definition for the operator
-   * @param fieldComponent Component for which the operator is used
-   * @param rootFactory The factory to use to create sources or operators
+   * @param parser Root parser
    *
    * @returns
    * A pipeable operator to be used with observables like in `observable$.pipe(...)`.
@@ -68,7 +66,7 @@ export interface CustomParser {
 
 export interface Parser extends CustomParser {
   /**
-   * Parses an input source definition to an `Observable`.
+   * Parses a definition to an `Observable`.
    *
    * @param def The definition
    *
