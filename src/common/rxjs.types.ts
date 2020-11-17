@@ -1,9 +1,6 @@
 import { ThrottleConfig } from 'rxjs/internal/operators/throttle';
 
-import {
-  ObservableDefinition,
-  OperatorDefinition,
-} from '../interface/definitions';
+import { ObservableDefinition } from '../interface/definitions';
 
 export interface FromEventOptions {
   events: string[];
@@ -13,11 +10,6 @@ export interface FromEventOptions {
 export interface TimerOptions {
   initialDelay: number;
   period: number;
-}
-
-export interface RangeOptions {
-  start?: number;
-  count?: number;
 }
 
 export interface IntervalOptions {
