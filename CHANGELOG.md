@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.7](https://github.com/ckapps/rxjs-parse/compare/v0.0.6...v0.0.7) (2022-03-21)
+
+
+### Bug Fixes
+
+* **deps:** bump rxjs to 6.6.7 ([1b29fe8](https://github.com/ckapps/rxjs-parse/commit/1b29fe8e35c7ad44b66a666fdb0b4d82a76fa3bb))
+* **deps:** use `@ckapp/rxjs-snafu` instead of `@ckapp/rxjs` ([dd7d92a](https://github.com/ckapps/rxjs-parse/commit/dd7d92a02b00fa0df7917af78690cb1c9977e140))
+
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ### [0.0.6](https://github.com/ckapps/rxjs-parse/compare/v0.0.5...v0.0.6) (2020-11-17)
