@@ -22,6 +22,7 @@ describe('common/rxjs', () => {
   const mockDefinition: ObservableDefinition = {
     name: 'rxjs/range',
     args: {
+      start: 0,
       count: 2,
     },
     pipe: [

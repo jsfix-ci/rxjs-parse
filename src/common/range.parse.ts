@@ -7,7 +7,7 @@ export interface RangeOptions {
   /**
    * The value of the first integer in the sequence
    */
-  start?: number;
+  start: number;
   /**
    * The number of sequential integers to generate
    */
@@ -21,7 +21,7 @@ export interface RangeOptions {
  * @param def Definition for the function parameters
  */
 function range(def: ObservableDefinition<RangeOptions>) {
-  const { args: { start, count } = {} } = def;
+  const { args: { start, count } = { start: 0 } } = def;
   return _range(start, count);
 }
 
