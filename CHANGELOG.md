@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.9](https://github.com/ckapps/rxjs-parse/compare/v0.0.8...v0.0.9) (2022-05-29)
+
+
+### Bug Fixes
+
+* **deps:** bump `@ckapp/rxjs-snafu` to 0.1.2 ([#24](https://github.com/ckapps/rxjs-parse/issues/24)) ([1fbc837](https://github.com/ckapps/rxjs-parse/commit/1fbc8371ff2e450d66c0238a6c4268a7d9e32c6d))
+
 ## [0.0.8](https://github.com/ckapps/rxjs-parse/compare/v0.0.7...v0.0.8) (2022-04-03)
 
 
