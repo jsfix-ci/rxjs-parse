@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.10](https://github.com/ckapps/rxjs-parse/compare/v0.0.9...v0.0.10) (2022-05-29)
+
+
+### Bug Fixes
+
+* **deps:** bump `rxjs` to 7.5 ([#25](https://github.com/ckapps/rxjs-parse/issues/25)) ([63e3878](https://github.com/ckapps/rxjs-parse/commit/63e387886dea68a22bd1612b10064f1019b152d2))
+
 ## [0.0.9](https://github.com/ckapps/rxjs-parse/compare/v0.0.8...v0.0.9) (2022-05-29)
 
 
