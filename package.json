@@ -67,6 +67,6 @@
   ],
   "dependencies": {
     "@ckapp/rxjs-snafu": "^0.1.0",
-    "rxjs": "^6.6.7"
+    "rxjs": "^7.5.6"
   }
 }
